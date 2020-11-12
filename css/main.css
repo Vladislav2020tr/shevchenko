@@ -1,0 +1,104 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    background-color: lightgrey;
+    margin: 8px;
+    border-radius: 5px;
+   
+}
+
+
+.main-header{
+    text-align: center;
+}
+
+.page-title{
+    font-size: 36px;
+    padding-top: 2.2rem;
+}
+
+.page-text{
+    font-size: 18px;
+    padding-bottom: 1rem;
+}
+
+
+.figure{
+    text-align: center;
+    background-color:#fff;
+}
+
+.image{
+    padding-top: 2rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.img-text{
+    font-size: 20px;
+    padding-bottom: 0.9rem;
+}
+
+.img-caption{
+    font-size: 20px;
+}
+
+.tribute-info{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 22px;
+}
+
+.lists{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.list{
+    padding-bottom: 0.9rem;
+}
+
+.info-blockquote{
+    font-style: italic;
+}
+
+.author{
+    padding-top: 0.8rem;
+}
+
+.additional-info{
+    text-align: center;
+    font-weight: 700;
+    padding: 1.4rem 0;
+    font-size: 22px;
+
+}
+/* media */
+@media(max-width:600px){
+    .main{
+        width: 600px;
+        margin: 0 auto;
+    }
+  
+
+
+
+/* // Малые девайсы («ландшафтные телефоны», >= 576px) */
+@media (min-width: 576px) { 
+    .main{
+        width: 576px;
+        margin: 0 auto;
+    }
+}
+
+/* // Средние девайсы («таблетки», >= 768px)
+@media (min-width: 768px) { ... }
+
+Большие девайсы (десктопы, >= 992px)
+@media (min-width: 992px) { ... }
+
+// Экстрабольшие девайсы (большие десктопы, >= 1200px)
+@media (min-width: 1200px) { ... } */
